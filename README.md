@@ -34,6 +34,15 @@ Vcm + Vd/2 and Vcm - Vd/2 to isolate the differential mode and suppress common-m
 *Negative feedback applied via a resistor divider to achieve gain = 2.<br/>
 *Proper sizing and saturation of M5 and M6 ensured through feedback stability.<br/>
 *Non inverting gain = 1 + Rf/R1, where feedback resistors are chosen to be equal to get gain of 2.<br/>
+## Design Considerations:
+### Bias Generation: 
+Avoided ideal current source in simulation tail. Used scaled reference current for more practical biasing.
+### MOSFET Operating Regions: 
+Ensured all transistors operate in saturation region.
+### Power Consumption: 
+Optimized through bias current and transistor sizing.
+### Simulation: 
+DC, AC, and transient responses verified in LTspice.
 
 
 
