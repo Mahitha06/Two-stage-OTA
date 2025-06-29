@@ -51,6 +51,17 @@ DC, AC, and transient responses verified in LTspice.
 ### Differential pair and current mirror schematic:
 
 ![image](https://github.com/user-attachments/assets/da22e15f-b40e-4c91-88d2-e2beceb83fc0)
+### Second-stage amplifier schematic:
+![image](https://github.com/user-attachments/assets/fe3dbfd8-aa1c-4d2f-a34f-1a03cd1a4f99)
+### Complete OTA schematic (hand-drawn):
+![image](https://github.com/user-attachments/assets/ccd7d89a-ddf0-49d3-8f28-a9ff583a106e)
+### References:
+EE204 Analog Circuit Theory, IIT Guwahati, 2025<br/>
+Lecture notes and assignment guidelines
+
+
+
+
 
 
 
