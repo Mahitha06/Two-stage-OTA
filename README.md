@@ -10,11 +10,16 @@ This project involves the hand-design, simulation, and analysis of a two-stage O
 *MOSFET small-signal analysis.<br/>
 ## Design Overview:
 ### Stage-1:Differential Amplifier with Current Mirror Load
-Differential input applied to M1 and M2 (NMOS).<br/>
-Gate voltages:<br/>
+*Differential input applied to M1 and M2 (NMOS).<br/>
+*Gate voltages:<br/>
 Vcm + Vd/2 and Vcm - Vd/2 to isolate the differential mode and suppress common-mode.<br/>
-Output voltage is the difference of drain voltages of M1 and M2.<br/>
-Current mirror (M3, M4 – PMOS) used as active load.<br/>
+*Output voltage is the difference of drain voltages of M1 and M2.<br/>
+*Current mirror (M3, M4 – PMOS) used as active load.<br/>
+### Stage 2: Common Source Gain Stage
+*Receives the output from Stage 1.<br/>
+*Consists of a common-source PMOS and NMOS pair.<br/>
+*Acts as a voltage amplifier and provides additional gain.<br/>
+*Connected to a second-stage current source (M6) for biasing.<br/>
 
 
 
