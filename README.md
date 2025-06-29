@@ -28,8 +28,13 @@ Vcm + Vd/2 and Vcm - Vd/2 to isolate the differential mode and suppress common-m
 => Gain of stage-2 = gm5(ro5||ro6)<br/>
 *Overall Gain: Product of stage-1 and stage-2 gains<br/>
 => Overall gain of 2 stage OTA = (gm1)(ro4||ro2)gm5(ro5||ro6)<br/>
-*DC Gain Requirement: ≥ 40 <br/>
+*DC Gain Requirement: ≥ 40dB <br/>
 *Gate Overdrive Voltage: Assumed 200 mV during hand calculations<br/>
+## Closed-Loop Configuration (Non-Inverting Amplifier):
+*Negative feedback applied via a resistor divider to achieve gain = 2.<br/>
+*Proper sizing and saturation of M5 and M6 ensured through feedback stability.<br/>
+*Non inverting gain = 1 + Rf/R1, where feedback resistors are chosen to be equal to get gain of 2.<br/>
+
 
 
 
