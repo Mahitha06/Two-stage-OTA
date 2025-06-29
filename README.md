@@ -4,3 +4,9 @@ This project involves the hand-design, simulation, and analysis of a two-stage O
 *To design a two-stage operational transconductance amplifier (OTA) in TSMC180nm CMOS technology.
 *Ensure a minimum DC gain of 40 dB.
 *Use the OTA in a non-inverting amplifier configuration with closed-loop gain = 2.
+## Technologies & Tools used:
+*LTspice for circuit simulation
+*and calculations for transistor sizing and biasing
+*MOSFET small-signal analysis
+
+
