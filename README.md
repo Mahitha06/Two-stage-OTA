@@ -22,9 +22,8 @@ Vcm + Vd/2 and Vcm - Vd/2 to isolate the differential mode and suppress common-m
 *Connected (M6) to the current mirror for biasing.<br/>
 ## Key Parameters:
 *Gain of Stage 1: Gm × Rout<br/>
-Gm : Equivalent gm of stage-1<br/>
-Rout : equivalent Rout of stage-1<br/>
-
+---Gm : Equivalent gm of stage-1<br/>
+---Rout : equivalent Rout of stage-1<br/>
 => Gain(stage-1) = (gm1)(ro4||ro2)<br/>
 => Gain of stage-2 = gm5(ro5||ro6)<br/>
 *Overall Gain: Product of stage-1 and stage-2 gains<br/>
