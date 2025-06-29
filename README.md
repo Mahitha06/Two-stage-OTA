@@ -7,6 +7,6 @@ This project involves the hand-design, simulation, and analysis of a two-stage O
 ## Technologies & Tools used:
 *LTspice for circuit simulation
 *and calculations for transistor sizing and biasing
-*MOSFET small-signal analysis
+*MOSFET small-signal analysis.
 
 
